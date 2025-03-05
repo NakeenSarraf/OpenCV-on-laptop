@@ -1,3 +1,4 @@
+#code doesn't work and I dont know how to remove it
 import SimpleITK as sitk
 import matplotlib.pyplot as plt
 import numpy as np
