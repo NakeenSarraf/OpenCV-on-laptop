@@ -2,7 +2,7 @@ import SimpleITK as sitk
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Load the placenta image (modify the path)
+# Load the placenta image 
 dicom_folder = r"C:\Users\sarra\Downloads\ORIG_3D_FSPGR_20_Average\ORIG_3D_FSPGR_20_Average"
 reader = sitk.ImageSeriesReader()
 reader.SetFileNames(reader.GetGDCMSeriesFileNames(dicom_folder))
